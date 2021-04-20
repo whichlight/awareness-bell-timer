@@ -5,5 +5,6 @@ This is a simple timer I use to keep track of time and remember to take breaks. 
 Install mplayer. This is what will play the sound. This is a bash script that runs in the terminal. 
 
 ## Usage 
-Add the script to your path. To run, type `bell.sh`. This will run the timer for 30 minutes. 
+To run, type `bell.sh`. This will run the timer for 30 minutes. 
 To change the amount of minutes, enter that number as the first argument after the command. So for 10 minutes, write `bell.sh 10`. 
+You can run from anywhere by adding the directory to PATH and making the audio location absolute (rather than relative). 
